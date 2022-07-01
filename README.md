@@ -42,7 +42,7 @@ translate.init();
 # Options
 
 | Option | Required | Default | Description |
-|:-------------:|:-------------:|:-------------:|-------------|
+|:-------------|:-------------:|:-------------:|-------------|
 | `key` | :heavy_check_mark: | `None` | Your Google Cloud API JSON file. See [Google's Setup Page](https://cloud.google.com/translate/docs/setup) for more information.
 | `input` | :heavy_check_mark: | `None` | Your `.srt` input file.
 | `output` | :heavy_check_mark: | `None` | Your `.srt` output destination.
