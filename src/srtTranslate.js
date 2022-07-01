@@ -14,8 +14,6 @@ export default class srtTranslator
 			this.options.delay = 200;
 		}
 
-		this.init();
-
 		return this;
 	}
 
