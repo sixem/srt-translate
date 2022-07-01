@@ -1,3 +1,9 @@
+/**
+ * FORKED FROM [https://github.com/1c7/srt-parser-2]
+ * 
+ * MODIFIED TO WORK WITH ES6 (`IMPORT`)
+ */
+
 var Parser = /** @class */ (function () {
     function Parser() {
         this.seperator = ",";
