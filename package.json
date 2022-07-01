@@ -1,0 +1,29 @@
+{
+  "name": "srt-translate",
+  "version": "1.0.0",
+  "description": "A package that translates .srt files using Google Cloud Translate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixem/srt-translate.git"
+  },
+  "keywords": [
+    "translate",
+    "src"
+  ],
+  "author": "emy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sixem/srt-translate/issues"
+  },
+  "homepage": "https://github.com/sixem/srt-translate#readme",
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/translate": "^7.0.0",
+    "srt-parser-2": "^1.1.7",
+    "yargs": "^17.5.1"
+  }
+}
