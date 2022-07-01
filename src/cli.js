@@ -52,7 +52,9 @@ const argv = yarg.argv;
  */
 (async () =>
 {
-    new srtTranslate(argv);
+    let instance = new srtTranslate(argv);
+
+    instance.init();
 })();
 
 /**
