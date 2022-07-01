@@ -8,6 +8,12 @@ export default class srtTranslator
 	{
 		this.parser = new Parser();
         this.options = options;
+
+		if(!this.options.delay || !Number.isInteger(this.options.delay))
+		{
+			this.options.delay = 200;
+		}
+
 		this.init();
 
 		return this;
