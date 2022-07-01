@@ -7,6 +7,14 @@ export default class srtTranslator
 	constructor(options)
 	{
 		this.parser = new Parser();
+        
+		this.setup(options);
+
+		return this;
+	}
+
+	setup = (options) =>
+	{
         this.options = options;
 
 		if(!this.options.delay || !Number.isInteger(this.options.delay))
@@ -32,6 +40,8 @@ export default class srtTranslator
 		});
 
 		console.log('\n\nTranslation complete.');
+
+		return this;
 	}
 
 	segmentHandler = async (segment, index, total) =>
