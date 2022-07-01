@@ -2,7 +2,10 @@
   "name": "srt-translate",
   "version": "1.0.0",
   "description": "A package that translates .srt files using Google Cloud Translate",
-  "main": "index.js",
+  "main": "./src/srtTranslate.js",
+  "bin": {
+    "srt-translate": "./src/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +15,8 @@
   },
   "keywords": [
     "translate",
-    "src"
+    "subtitles",
+    "srt"
   ],
   "author": "emy",
   "license": "MIT",
