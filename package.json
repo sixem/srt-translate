@@ -1,6 +1,6 @@
 {
   "name": "srt-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that translates .srt files using Google Cloud Translate",
   "main": "./src/srtTranslate.js",
   "bin": {
