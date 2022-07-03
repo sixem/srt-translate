@@ -9,7 +9,7 @@ const yarg = yargs(
 );
 
 /**
- * CLI Options
+ * command-line options
  */
 yarg.option('k', {
     alias: 'key',
@@ -43,12 +43,12 @@ yarg.option('k', {
 });
 
 /**
- * Get arguments
+ * get arguments
  */
 const argv = yarg.argv;
 
 /**
- * Initialize translator class
+ * initialize translator class
  */
 (async () =>
 {
@@ -58,6 +58,6 @@ const argv = yarg.argv;
 })();
 
 /**
- * Parse options
+ * parse yarg options
  */
 yarg.parse();
