@@ -46,6 +46,6 @@ translate.init();
 | `key` | :heavy_check_mark: | `None` | Your Google Cloud API JSON file. See [Google's Setup Page](https://cloud.google.com/translate/docs/setup) for more information.
 | `input` | :heavy_check_mark: | `None` | Your `.srt` input file.
 | `output` | :heavy_check_mark: | `None` | Your `.srt` output destination.
-| `target` | :heavy_check_mark: | `None` | Target language (`en`, `ru` and so on).
+| `target` | :heavy_check_mark: | `None` | Target language (`en`, `ru` and so on). See [language support](https://cloud.google.com/translate/docs/languages) for more information.
 | `delay` | :x: | `200` | Delay between requests made to Google Translate.
 | `silent` | :x: | `False` | Disables the printing of translated lines.
